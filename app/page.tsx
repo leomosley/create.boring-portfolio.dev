@@ -41,7 +41,7 @@ export default function Home() {
             The usage for the command can be found on the projects GitHub.
           </p>
         </div>
-        <div className="mx-auto lg:ml-auto w-[450px] h-[300px] bg-neutral-900 rounded-xl">
+        <div className="mx-auto w-[450px] h-[300px] bg-neutral-900 rounded-xl">
 
         </div>
       </div>
