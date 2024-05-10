@@ -24,7 +24,7 @@ export default function CopyCommand() {
     </div>
     <div className={clsx(
       "flex items-center mx-auto mt-4 gap-2 p-3",
-      "text-gray-200 text-nowrap font-mono text-lg",
+      "text-gray-200 text-nowrap font-mono md:text-lg",
       "rounded-xl border border-neutral-800 bg-neutral-800/30"
     )}>
       <span className="mr-8">{command}</span>
