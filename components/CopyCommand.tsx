@@ -27,7 +27,7 @@ export default function CopyCommand() {
       "text-gray-200 text-nowrap font-mono md:text-lg",
       "rounded-xl border border-neutral-800 bg-neutral-800/30"
     )}>
-      <span className="mr-8">{command}</span>
+      <span className="mr-4 md:mr-8">{command}</span>
       <button
         className={clsx(
           "p-2 rounded-lg ml-auto bg-neutral-800/40 transition",

@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex flex-col justify-center mx-auto md:max-w-5xl">
       <Header />
       <div className="text-balance text-center p-2 mt-10 md:mt-24">
-        <h1 className="tracking-tight font-extrabold text-4xl sm:text-5xl md:text-6xl">
+        <h1 className="tracking-tight font-extrabold text-5xl md:text-6xl">
           Easiest way to create a portfolio with
           <span className=" text-teal-300">&nbsp;Next.js</span>
         </h1>
