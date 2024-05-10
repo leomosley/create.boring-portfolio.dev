@@ -29,7 +29,7 @@ export default function Home() {
         <div className="space-y-4 flex-1">
           <h2 className="tracking-tight font-extrabold text-2xl sm:text-3xl md:text-4xl">Getting Started</h2>
           <p className="md:text-lg">
-            I made create-boring-portfolio to help people like me who don't want the fuss of desiging and building a portfolio.
+            I made create-boring-portfolio to help people like me who dont want the fuss of desiging and building a portfolio.
             All you have to do is run one command and it builds you a production ready portfolio website. 
           </p>
           <p className="md:text-lg">
