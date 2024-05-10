@@ -21,7 +21,7 @@ async function getStars() {
 export default async function Header() {
   // const stars = await getStars();
   return (
-    <header className="flex items-center p-4 w-full backdrop-blur">
+    <header className="flex items-center p-4 w-full">
       <Link
         className="flex justify-center items-center p-2 rounded-lg border text-gray-200 text-lg"
         href="/"
