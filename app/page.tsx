@@ -1,4 +1,5 @@
 import CopyCommand from "@/components/CopyCommand";
+import ExampleTerminal from "@/components/ExampleTerminal";
 import Header from "@/components/Header";
 import clsx from "clsx";
 import { HiExternalLink } from "react-icons/hi";
@@ -40,10 +41,8 @@ export default function Home() {
           <p className="md:text-lg">
             The usage for the command can be found on the projects GitHub.
           </p>
-        </div>
-        <div className="mx-auto w-[450px] h-[300px] bg-neutral-900 rounded-xl">
-
-        </div>
+       </div>
+       <ExampleTerminal />
       </div>
     </main>
   );
