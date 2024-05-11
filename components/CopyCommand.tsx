@@ -17,7 +17,7 @@ export default function CopyCommand() {
     <>
     <div className={clsx(
       "absolute p-2 rounded bottom-5 right-5 transition-opacity duration-300",
-      "text-gray-200 bg-neutral-950 border border-gray-200 text-sm sm:text-base",
+      "text-gray-200 bg-neutral-950 border border-gray-200",
       showPopup ? "opacity-100" : "opacity-0" 
     )}>
       Coppied to clipboard
