@@ -50,15 +50,15 @@ export default function ExampleTerminal() {
       <div className="flex flex-col overflow-y-auto hide-scrollbar">
         <span className="mt-2">{command}</span>
         <span className="mt-2 px-4 bg-cyan-400 text-neutral-900 max-w-fit">{title}</span>
-        {prompts.map((prompt) => (
-          <span className="">{prompt}</span>
+        {prompts.map((prompt, index) => (
+          <span key={index} className="">{prompt}</span>
         ))}
         <span className="text-blue-600 mt-2">{installingBoilerplate}</span>
         <span className="text-green-400">{successBoilerplate}</span>
         <span className="text-blue-600 mt-2">{installingDependencies}</span>
         <span className="text-green-400">{successDependencies}</span>
         {nextSteps.map((step, index) => (
-          <span className={clsx(
+          <span key={index} className={clsx(
             "text-blue-600",
             index === 0 && "mt-2"
           )}>
