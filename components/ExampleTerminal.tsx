@@ -40,7 +40,7 @@ export default function ExampleTerminal() {
     <div className={clsx(
       "flex flex-col p-4 md:p-6 mx-auto lg:flex-1 rounded-xl md:rounded-2xl",
       "bg-neutral-900/60 border border-neutral-800 backdrop-blur-sm",
-      "w-3/4 h-[260px] sm:h-[300px] md:h-[380px] lg:max-h-[380px] lg:h-auto font-mono text-sm sm:text-base"
+      "w-full sm:w-3/4 h-[260px] sm:h-[300px] md:h-[380px] lg:max-h-[380px] lg:h-auto font-mono text-sm sm:text-base"
     )}>
       <div className="flex gap-2 pb-1">
         <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-red-500"></div>
