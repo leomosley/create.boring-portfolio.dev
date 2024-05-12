@@ -49,7 +49,7 @@ export default function ExampleTerminal() {
       </div>
       <div className="flex flex-col overflow-y-auto hide-scrollbar">
         <span className="mt-2">{command}</span>
-        <span className="mt-2 px-4 bg-cyan-400 text-neutral-900 max-w-fit">{title}</span>
+        <span className="mt-2 px-4 bg-teal-300 text-neutral-900 max-w-fit">{title}</span>
         {prompts.map((prompt, index) => (
           <span key={index} className="">{prompt}</span>
         ))}
