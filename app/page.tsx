@@ -2,7 +2,7 @@ import CopyCommand from "@/components/CopyCommand";
 import ExampleTerminal from "@/components/ExampleTerminal";
 import Header from "@/components/Header";
 import clsx from "clsx";
-import { HiExternalLink } from "react-icons/hi";
+import { HiArrowRight, HiExternalLink } from "react-icons/hi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 
@@ -31,17 +31,30 @@ export default function Home() {
           <span className=" text-teal-300">&nbsp;Next.js</span>
         </h1>
       </div>
-      <a
-        className={clsx(
-          "flex mx-auto transition items-center mt-4 px-4 py-2 gap-1",
-          "rounded-full md:text-lg font-semibold",
-          "bg-neutral-800/60 hover:bg-neutral-800/80",
-        )}
-        href="https://github.com/leomosley/create-boring-portfolio"
-        target="_blank"
-      >
-        GitHub <HiExternalLink className="w-5 h-5" />
-      </a>
+      <div className="flex gap-2 mx-auto">
+        <a
+          className={clsx(
+            "flex transition items-center mt-4 px-4 py-2 gap-1",
+            "rounded-full md:text-lg font-semibold text-neutral-950",
+            "bg-gray-200/90 hover:bg-gray-200",
+          )}
+          href="https://github.com/leomosley/create-boring-portfolio"
+          target="_blank"
+        >
+          Example Site <HiExternalLink className="w-5 h-5" />
+        </a>
+        <a
+          className={clsx(
+            "flex transition items-center mt-4 px-4 py-2 gap-1",
+            "rounded-full md:text-lg font-semibold",
+            "bg-neutral-800/60 hover:bg-neutral-800/80",
+          )}
+          href="https://github.com/leomosley/create-boring-portfolio"
+          target="_blank"
+        >
+          GitHub <HiExternalLink className="w-5 h-5" />
+        </a>
+      </div>
       <CopyCommand />
       <div className="flex flex-col lg:flex-row mt-20 py-4 px-4 sm:px-10 md:px-15 gap-4">
         <div className="space-y-4 flex-1">
