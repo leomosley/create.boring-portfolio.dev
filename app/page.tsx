@@ -38,7 +38,7 @@ export default function Home() {
             "rounded-full md:text-lg font-semibold text-neutral-950",
             "bg-gray-200/90 hover:bg-gray-200",
           )}
-          href="https://github.com/leomosley/create-boring-portfolio"
+          href="https://leomosley.com"
           target="_blank"
         >
           Example Site <HiExternalLink className="w-5 h-5" />
