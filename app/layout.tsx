@@ -17,7 +17,11 @@ export const metadata: Metadata = {
     url: "https://create-boring-portfolio.vercel.app",
     siteName: "Create Boring Portolio",
     images: [
-      { url: "https://create-boring-portfolio.vercel.app/preview.png" }
+      { 
+        url: "https://create-boring-portfolio.vercel.app/preview.png",
+        width: 800,
+        height: 600
+      }
     ]
   },
   twitter: {
