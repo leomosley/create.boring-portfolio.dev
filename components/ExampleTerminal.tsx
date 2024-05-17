@@ -11,7 +11,7 @@ const prompts = [
   "◇  What should we name your portfolio?",
   "│  portfolio",
   "│",
-  "◇  What's GitHub username?",
+  "◇  What's your GitHub username?",
   "│  leomosley",
   "│",
   "◇  What topic tag should we give the Repos you want to showcase?",
