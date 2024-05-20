@@ -29,9 +29,9 @@ const successDependencies = `✔ Successfully installed dependencies!`;
 const nextSteps = [
   "Next steps:",
   "cd portfolio",
-  "pm run dev",
+  "npm run dev",
   "git init",
-  "git commit -m 'initial commit"
+  "git commit -m 'initial commit'"
 ];
 
 
