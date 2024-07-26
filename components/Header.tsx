@@ -1,8 +1,7 @@
-import clsx from 'clsx';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FaGithub, FaStar } from 'react-icons/fa6';
-import { SiAnalogue } from 'react-icons/si';
 
 async function getStars() {
   try {
@@ -22,12 +21,19 @@ export default async function Header() {
   // const stars = await getStars();
   return (
     <header className="flex items-center p-4 w-full">
-      <Link
-        className="flex justify-center items-center p-2 rounded-lg border text-gray-200 text-lg"
-        href="/"
+      <a
+        className="flex justify-center items-center rounded-lg w-10 h-10 border text-gray-200 text-lg"
+        href="https://boring-portfolio.dev"
+        target="_blank"
       >
-        <SiAnalogue className="-mb-[1.5px] -ml-[1px] rotate-[242deg]" />
-      </Link>
+        <Image
+          className="w-full h-full"
+          width={120}
+          height={120}
+          src={"/icon.png"}
+          alt="icon"
+        />
+      </a>
       <a
         className="flex gap-3 items-center ml-auto text-gray-200"
         href="https://github.com/leomosley/create-boring-portfolio"
