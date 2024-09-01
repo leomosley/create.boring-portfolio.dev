@@ -22,7 +22,7 @@ const installingBoilerplate = `Installing boilerplate...`;
 
 const successBoilerplate = `✔ Successfully installed boilerplate!`;
 
-const installingDependencies =  `Installing dependencies...`;
+const installingDependencies = `Installing dependencies...`;
 
 const successDependencies = `✔ Successfully installed dependencies!`;
 
@@ -35,7 +35,7 @@ const nextSteps = [
 ];
 
 
-export default function ExampleTerminal() {
+export default function Terminal() {
   return (
     <div className={clsx(
       "flex flex-col p-4 md:p-6 mx-auto lg:flex-1 rounded-xl md:rounded-2xl",

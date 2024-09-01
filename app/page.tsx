@@ -1,8 +1,8 @@
-import CopyCommand from "@/components/CopyCommand";
-import ExampleTerminal from "@/components/ExampleTerminal";
-import Header from "@/components/Header";
+import CopyCommand from "@/components/copy-command";
+import ExampleTerminal from "@/components/terminal";
+import Header from "@/components/header";
 import clsx from "clsx";
-import { HiArrowRight, HiExternalLink } from "react-icons/hi";
+import { HiExternalLink } from "react-icons/hi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 
