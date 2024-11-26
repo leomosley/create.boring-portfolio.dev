@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import React, { useState } from 'react';
 import { HiOutlineDuplicate } from 'react-icons/hi';
 
-export default function CopyCommand() {
+export function CopyCommand() {
   const command = "npx create-boring-portfolio@latest";
   const [showPopup, setShowPopup] = useState<boolean>(false);
 

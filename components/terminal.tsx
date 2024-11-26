@@ -66,7 +66,7 @@ function calculateDelay(previousText: string, speed: number, extraDelay: number 
   return previousText.length * speed + extraDelay;
 }
 
-export default function Terminal() {
+export function Terminal() {
   const inputTypingSpeed = 30;
   const outputTypingSpeed = 20;
   const extraDelay = 500;

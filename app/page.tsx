@@ -1,6 +1,6 @@
-import CopyCommand from "@/components/copy-command";
-import ExampleTerminal from "@/components/terminal";
-import Header from "@/components/header";
+import { CopyCommand } from "@/components/copy-command";
+import { Terminal } from "@/components/terminal";
+import { Header } from "@/components/header";
 import clsx from "clsx";
 import { HiExternalLink } from "react-icons/hi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
@@ -72,7 +72,7 @@ export default function Home() {
             The usage for the command can be found on the projects GitHub.
           </p>
         </div>
-        <ExampleTerminal />
+        <Terminal />
       </div>
       <div className="flex flex-col py-4 px-4 sm:px-10 md:px-15">
         <h2 className="tracking-tight font-extrabold text-2xl sm:text-3xl md:text-4xl">

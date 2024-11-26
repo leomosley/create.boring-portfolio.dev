@@ -16,7 +16,7 @@ async function getStars() {
   }
 }
 
-export default async function Header() {
+export async function Header() {
   const stars = await getStars();
 
   return (
