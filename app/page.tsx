@@ -27,7 +27,7 @@ export default function Home() {
       <Header />
       <div className="text-balance text-center p-2 mt-10 md:mt-24">
         <h1 className="tracking-tight font-extrabold text-5xl md:text-6xl">
-          Easiest way to create a portfolio with
+          The easiest way to create a portfolio with
           <span className=" text-teal-300">&nbsp;Next.js</span>
         </h1>
       </div>
@@ -60,16 +60,15 @@ export default function Home() {
         <div className="space-y-4 flex-1">
           <h2 className="tracking-tight font-extrabold text-2xl sm:text-3xl md:text-4xl">Getting Started</h2>
           <p className="md:text-lg">
-            I made create-boring-portfolio to help people like me who dont want the fuss of desiging and building a portfolio.
-            All you have to do is run one command and it builds you a production ready portfolio website.
+            Create Boring Portfolio was inspired by the minimalist websites of innovators who let their work speak for itself. With just one command, it generates a clean, production-ready portfolio, so you can focus on what really matters.
           </p>
           <p className="md:text-lg">
-            The design is super simple, it is heavily infulenced by&nbsp;
+            It intergrates with your GitHub profile to dynamically showcase your projects. The design heavily infulenced by&nbsp;
             <a className="font-semibold underline-offset-4 underline decoration-neutral-500 transition hover:decoration-inherit" href="https://www.nexxel.dev/" target="blank">nexxel.dev</a>
-            . I think its the perfect design.
+            . I think it{"'"}s the perfect blend of simplicity and style.
           </p>
           <p className="md:text-lg">
-            The usage for the command can be found on the projects GitHub.
+            You can find the usage instructions for the CLI on the project's GitHub.
           </p>
         </div>
         <Terminal />
