@@ -63,7 +63,7 @@ export default function Home() {
             Create Boring Portfolio was inspired by the minimalist websites of innovators who let their work speak for itself. With just one command, it generates a clean, production-ready portfolio, so you can focus on what really matters.
           </p>
           <p className="md:text-lg">
-            It intergrates with your GitHub profile to dynamically showcase your projects. The design heavily infulenced by&nbsp;
+            It intergrates with your GitHub profile to dynamically showcase your projects. The design is heavily infulenced by&nbsp;
             <a className="font-semibold underline-offset-4 underline decoration-neutral-500 transition hover:decoration-inherit" href="https://www.nexxel.dev/" target="blank">nexxel.dev</a>
             . I think it&apos;s the perfect blend of simplicity and style.
           </p>
