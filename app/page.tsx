@@ -65,10 +65,10 @@ export default function Home() {
           <p className="md:text-lg">
             It intergrates with your GitHub profile to dynamically showcase your projects. The design heavily infulenced by&nbsp;
             <a className="font-semibold underline-offset-4 underline decoration-neutral-500 transition hover:decoration-inherit" href="https://www.nexxel.dev/" target="blank">nexxel.dev</a>
-            . I think it{"'"}s the perfect blend of simplicity and style.
+            . I think it&apos;s the perfect blend of simplicity and style.
           </p>
           <p className="md:text-lg">
-            You can find the usage instructions for the CLI on the project's GitHub.
+            You can find the usage instructions for the CLI on the project&apos;s GitHub.
           </p>
         </div>
         <Terminal />
